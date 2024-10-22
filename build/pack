@@ -76,7 +76,7 @@ PACK_CHIP=${FLAGS_chip}
 PACK_IC=${FLAGS_ic}
 PACK_PLATFORM=${FLAGS_platform}
 PACK_PLATFORM_VERSION=${FLAGS_platform_version}
-PACK_BOARD=${FLAGS_board}
+PACK_BOARD=${FLAGS_board} # p3
 PACK_KERN=${FLAGS_kernel}
 PACK_DEBUG=${FLAGS_debug_mode}
 PACK_SIG=${FLAGS_signture}
@@ -1680,7 +1680,8 @@ function prepare_mixed_androiddragonboard()
 					;;
 			esac
 		done
-		sed -i 's|||g' sys_partition.fex
+		sed -i 's|
+||g' sys_partition.fex
 
 		[ -z "$(grep "^\s*onlykey=boot_b,\s*dboot.fex," dragon_toc.cfg)" ] && \
 		sed -i 's|^\(\s*onlykey=boot_b,\s*\)\S*,|\1dboot.fex,|g'    dragon_toc.cfg

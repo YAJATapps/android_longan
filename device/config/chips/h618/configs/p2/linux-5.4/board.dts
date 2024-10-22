@@ -9,7 +9,7 @@
 #include "sun50iw9.dtsi"
 
 /{
-	model = "Orange Pi Zero 3";
+	model = "Orange Pi Zero2w";
 	compatible = "allwinner,h616", "arm,sun50iw9p1";
 
 	aliases {
@@ -28,16 +28,6 @@
 		twi5 = &twi5;
 	};
 
-	usb0_drvvbus: usb0-drvvvbus {
-		compatible = "regulator-fixed";
-		regulator-name = "usb0-drvvbus";
-		regulator-min-microvolt = <5000000>;
-		regulator-max-microvolt = <5000000>;
-		regulator-enable-ramp-delay = <1000>;
-		gpio = <&pio PC 16 GPIO_ACTIVE_HIGH>;
-		enable-active-high;
-	};
-
 	box_start_os0 {
 		compatible = "allwinner,box_start_os";
 		start_type = <0x1>;
@@ -49,6 +39,28 @@
 		/*pinctrl-0 = <&standby_blue>;
 		pinctrl-1 = <&standby_red>;
 		pinctrl-2 = <&standby_bt>;*/
+	};
+
+	leds {
+		compatible = "gpio-leds";
+
+		status {
+			label = "status_led";
+			gpios = <&pio PC 13 GPIO_ACTIVE_HIGH>; /* PC13 */
+			default-state = "on";
+		};
+
+		100m_link {
+			label = "100m_link";
+			gpios = <&pio PC 15 GPIO_ACTIVE_HIGH>; /* PC15 */
+			default-state = "off";
+		};
+
+		100m_act {
+			label = "100m_act";
+			gpios = <&pio PC 16 GPIO_ACTIVE_HIGH>; /* PC16 */
+			default-state = "off";
+		};
 	};
 };
 
@@ -85,13 +97,19 @@
 	spi1_cs_bitmap = <2>;
 	status = "okay";
 
+	spi_board1@0 {
+		device_type = "spi_board1";
+		compatible = "rohm,dh2228fv";
+		spi-max-frequency = <10000000>;
+		reg = <0x0>;
+		status = "okay";
+	};
+
 	spi_board1@1 {
 		device_type = "spi_board1";
 		compatible = "rohm,dh2228fv";
 		spi-max-frequency = <10000000>;
 		reg = <0x1>;
-		/*spi-rx-bus-width = <0x1>;
-		spi-tx-bus-width = <0x1>;*/
 		status = "okay";
 	};
 };
@@ -113,9 +131,9 @@
 
 &uart2 {
 	pinctrl-names = "default", "sleep";
-	pinctrl-0 = <&uart2_ph_pins>;
-	pinctrl-1 = <&uart2_ph_sleep>;
-	status = "disabled";
+	pinctrl-0 = <&uart2_pi_pins>;
+	pinctrl-1 = <&uart2_pi_sleep>;
+	status = "okay";
 };
 
 &uart3 {
@@ -127,8 +145,8 @@
 
 &uart4 {
 	pinctrl-names = "default", "sleep";
-	pinctrl-0 = <&uart4_ph_pins>;
-	pinctrl-1 = <&uart4_ph_sleep>;
+	pinctrl-0 = <&uart4_pi_pins>;
+	pinctrl-1 = <&uart4_pi_sleep>;
 	status = "disabled";
 };
 
@@ -244,6 +262,16 @@
 		function = "gpio_in";
 	};
 
+	uart2_pi_pins: uart2-pi-pins {
+		pins = "PI5", "PI6";
+		function = "uart2";
+	};
+
+	uart2_pi_sleep: uart2-pi-sleep {
+		pins = "PI5", "PI6";
+		function = "gpio_in";
+	};
+
 	uart3_ph_pins: uart3-ph-pins {
 		pins = "PI9", "PI10";
 		function = "uart3";
@@ -254,12 +282,12 @@
 		function = "gpio_in";
 	};
 
-	uart4_ph_pins: uart4-ph-pins {
+	uart4_pi_pins: uart4-pi-pins {
 		pins = "PI13", "PI14";
 		function = "uart4";
 	};
 
-	uart4_ph_sleep: uart4-ph-sleep {
+	uart4_pi_sleep: uart4-pi-sleep {
 		pins = "PI13", "PI14";
 		function = "gpio_in";
 	};
@@ -326,26 +354,26 @@
 	};
 
 	twi1_pins_a: twi1@0 {
-		pins = "PH0", "PH1";
+		pins = "PI7", "PI8";
 		function = "twi1";
 		drive-strength = <10>;
 		bias-pull-up;
 	};
 
 	twi1_pins_b: twi1@1 {
-		pins = "PH0", "PH1";
+		pins = "PI7", "PI8";
 		function = "gpio_in";
 	};
 
 	twi2_pins_a: twi2@0 {
-		pins = "PH2", "PH3";
+		pins = "PI9", "PI10";
 		function = "twi2";
 		drive-strength = <10>;
 		bias-pull-up;
 	};
 
 	twi2_pins_b: twi2@1 {
-		pins = "PH2", "PH3";
+		pins = "PI9", "PI10";
 		function = "gpio_in";
 	};
 
@@ -444,6 +472,54 @@
 			"PA8", "PA9";
 		function = "gpio_in";
 		drive-strength = <10>;
+	};
+
+	pwm1_pin_a: pwm1@0 {
+		pins = "PI11";
+		function = "pwm1";
+		drive-strength = <10>;
+		bias-pull-up;
+	};
+
+	pwm1_pin_b: pwm1@1 {
+		pins = "PI11";
+		function = "gpio_in";
+	};
+
+	pwm2_pin_a: pwm2@0 {
+		pins = "PI12";
+		function = "pwm2";
+		drive-strength = <10>;
+		bias-pull-up;
+	};
+
+	pwm2_pin_b: pwm2@1 {
+		pins = "PI12";
+		function = "gpio_in";
+	};
+
+	pwm3_pin_a: pwm3@0 {
+		pins = "PI13";
+		function = "pwm3";
+		drive-strength = <10>;
+		bias-pull-up;
+	};
+
+	pwm3_pin_b: pwm3@1 {
+		pins = "PI13";
+		function = "gpio_in";
+	};
+
+	pwm4_pin_a: pwm4@0 {
+		pins = "PI14";
+		function = "pwm4";
+		drive-strength = <10>;
+		bias-pull-up;
+	};
+
+	pwm4_pin_b: pwm4@1 {
+		pins = "PI14";
+		function = "gpio_in";
 	};
 
 	pwm5_pin_a: pwm5@0 {
@@ -568,8 +644,6 @@
 	};
 };
 
-
-
 &twi0 {
 	clock-frequency = <400000>;
 	pinctrl-0 = <&twi0_pins_a>;
@@ -591,7 +665,7 @@
 	pinctrl-1 = <&twi1_pins_b>;
 	pinctrl-names = "default", "sleep";
 	twi_drv_used = <1>;
-	status = "disabled";
+	status = "okay";
 };
 
 &twi2 {
@@ -600,7 +674,7 @@
 	pinctrl-1 = <&twi2_pins_b>;
 	pinctrl-names = "default", "sleep";
 	twi_drv_used = <1>;
-	status = "disabled";
+	status = "okay";
 };
 
 &twi3 {
@@ -609,7 +683,7 @@
 	pinctrl-1 = <&twi3_pins_b>;
 	pinctrl-names = "default", "sleep";
 	twi_drv_used = <1>;
-	status = "okay";
+	status = "disabled";
 };
 
 &twi4 {
@@ -637,6 +711,22 @@
 		/* irq line nc */
 		wakeup-source;
 		pmu_hot_shutdown = <1>;
+
+		interrupt-parent = <&pio>;
+		interrupts = <PC 9 IRQ_TYPE_LEVEL_LOW>;
+		interrupt-controller;
+		#interrupt-cells = <1>;
+
+		powerkey0: powerkey@0{
+			status = "okay";
+			compatible = "x-powers,axp2101-pek";
+			pmu_powkey_off_time = <6000>;
+			pmu_powkey_off_func = <0>;
+			pmu_powkey_off_en = <1>;
+			pmu_powkey_long_time = <1500>;
+			pmu_powkey_on_time = <1000>;
+			wakeup_falling;
+		};
 
 		standby_param: standby_param {
 			vdd-cpua = <0x2>;
@@ -711,7 +801,7 @@
 	pinctrl-names = "default", "sleep";
 	tx-delay = <7>;
 	rx-delay = <6>;
-	status = "okay";
+	status = "disabled";
 };
 
 &gmac1 {
@@ -721,7 +811,7 @@
 	pinctrl-names = "default", "sleep";
 	tx-delay = <7>;
 	rx-delay = <31>;
-	status = "disabled";
+	status = "okay";
 };
 
 /* for disp */
@@ -862,9 +952,8 @@
 	};
 
 	gpio_para {
-		gpio_num = <2>;
-		gpio_pin_1 = <&pio PC 12 GPIO_ACTIVE_LOW>;
-		gpio_pin_2 = <&pio PC 13 GPIO_ACTIVE_HIGH>;
+		gpio_num = <0>;
+		//gpio_pin_1 = <&pio PC 13 GPIO_ACTIVE_HIGH>;
 		/*normal_led = "gpio_pin_1";
 		easy_light_used = <1>;
 		normal_led_light = <1>;*/
@@ -911,6 +1000,34 @@
 	type_addr_wifi = <0x0>;
 	type_addr_bt = <0x0>;
 	type_addr_eth = <0x0>;
+	status = "okay";
+};
+
+&pwm1 {
+	pinctrl-names = "active", "sleep";
+	pinctrl-0 = <&pwm1_pin_a>;
+	pinctrl-1 = <&pwm1_pin_b>;
+	status = "okay";
+};
+
+&pwm2 {
+	pinctrl-names = "active", "sleep";
+	pinctrl-0 = <&pwm2_pin_a>;
+	pinctrl-1 = <&pwm2_pin_b>;
+	status = "okay";
+};
+
+&pwm3 {
+	pinctrl-names = "active", "sleep";
+	pinctrl-0 = <&pwm3_pin_a>;
+	pinctrl-1 = <&pwm3_pin_b>;
+	status = "okay";
+};
+
+&pwm4 {
+	pinctrl-names = "active", "sleep";
+	pinctrl-0 = <&pwm4_pin_a>;
+	pinctrl-1 = <&pwm4_pin_b>;
 	status = "okay";
 };
 
@@ -1114,12 +1231,10 @@
 };
 
 &ehci0 {
-	/*drvvbus-supply		= <&usb0_drvvbus>;*/
 	status			= "okay";
 };
 
 &ohci0 {
-	/*drvvbus-supply		= <&usb0_drvvbus>;*/
 	status			= "okay";
 };
 
@@ -1131,12 +1246,10 @@
 };
 
 &ehci1 {
-	drvvbus-supply		= <&usb0_drvvbus>;
 	status			= "okay";
 };
 
 &ohci1 {
-	drvvbus-supply		= <&usb0_drvvbus>;
 	status			= "okay";
 };
 
@@ -1148,12 +1261,10 @@
 };
 
 &ehci2 {
-	drvvbus-supply		= <&usb0_drvvbus>;
 	status			= "okay";
 };
 
 &ohci2 {
-	drvvbus-supply		= <&usb0_drvvbus>;
 	status			= "okay";
 };
 
@@ -1165,12 +1276,10 @@
 };
 
 &ehci3 {
-	drvvbus-supply		= <&usb0_drvvbus>;
 	status			= "okay";
 };
 
 &ohci3 {
-	drvvbus-supply		= <&usb0_drvvbus>;
 	status			= "okay";
 };
 
@@ -1333,3 +1442,14 @@
 	};
 };
 /* audio dirver module -> END */
+
+/*
+#define KEY_VOLUMEDOWN          114
+#define KEY_VOLUMEUP            115
+*/
+&keyboard {
+	key_cnt = <2>;
+	key0 = <600 114>;
+	key1 = <800 115>;
+	status = "okay";
+};

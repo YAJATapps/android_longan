@@ -1,0 +1,1 @@
+/home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/commit_info.h

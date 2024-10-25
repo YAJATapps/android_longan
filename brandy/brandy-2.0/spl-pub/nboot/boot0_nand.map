@@ -1,0 +1,2240 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+                              /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a (__aeabi_uidiv)
+/home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+                              /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a (__aeabi_idiv)
+/home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+                              /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Discarded input sections
+
+ .text.timer_get_us
+                0x0000000000000000       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.__msdelay
+                0x0000000000000000        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.timer_init
+                0x0000000000000000        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sdelay   0x0000000000000000        0x6 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.timer_exit
+                0x0000000000000000        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.enable_smp
+                0x0000000000000000        0xe /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.invalidate_dcache_range
+                0x0000000000000000        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.__jump_kernel
+                0x0000000000000000       0x5c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.boot0_jump_kernel
+                0x0000000000000000        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.optee_jump_kernel
+                0x0000000000000000        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_assert_arisc
+                0x0000000000000000       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_deassert_arisc
+                0x0000000000000000       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_clock_exit_key
+                0x0000000000000000       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.strcpy   0x0000000000000000       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.strncpy  0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.strcat   0x0000000000000000       0x1e /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.strncat  0x0000000000000000       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.strcmp   0x0000000000000000       0x16 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.strchr   0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.strrchr  0x0000000000000000       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.strnlen  0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.strspn   0x0000000000000000       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.memcmp   0x0000000000000000       0x1e /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.memscan  0x0000000000000000       0x16 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.strstr   0x0000000000000000       0x40 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.memchr   0x0000000000000000       0x1c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.vprintf  0x0000000000000000       0x1c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.puts     0x0000000000000000        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.snprintf
+                0x0000000000000000       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.print_sys_tick
+                0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.verify_addsum_for_kernel
+                0x0000000000000000       0x60 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.__aeabi_unwind_cpp_pr0
+                0x0000000000000000        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.malloc   0x0000000000000000       0x4c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.realloc  0x0000000000000000       0x6c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.free     0x0000000000000000       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.u8_to_string_hex
+                0x0000000000000000       0x1c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.ndump    0x0000000000000000       0x6c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.__assert_fail
+                0x0000000000000000       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.android_image_get_ramdisk
+                0x0000000000000000       0x24 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_mem_info
+                0x0000000000000000       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.load_bimage
+                0x0000000000000000      0x11c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.load_uimage
+                0x0000000000000000       0x40 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_gpio_set_cfgbank
+                0x0000000000000000       0x22 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_gpio_set_cfgpin
+                0x0000000000000000       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_gpio_get_cfgbank
+                0x0000000000000000       0x16 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_gpio_get_cfgpin
+                0x0000000000000000       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_gpio_set_drv
+                0x0000000000000000       0x50 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_gpio_set_pull
+                0x0000000000000000       0x50 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.rtc_set_fel_flag
+                0x0000000000000000       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.rtc_set_hash_entry
+                0x0000000000000000       0x1c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp_i2c_write
+                0x0000000000000000       0x16 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp_i2c_read
+                0x0000000000000000       0x12 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.i2c_exit
+                0x0000000000000000       0xa0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.pmic_bus_setbits
+                0x0000000000000000       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.pmic_bus_clrbits
+                0x0000000000000000       0x2a /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_dma_reg_func
+                0x0000000000000000       0x34 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_dma_request_from_last
+                0x0000000000000000       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_dma_stop
+                0x0000000000000000       0x12 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_dma_install_int
+                0x0000000000000000       0x4c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_dma_enable_int
+                0x0000000000000000       0x68 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_read_gpadc_key
+                0x0000000000000000       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.get_boot_dram_update_flag
+                0x0000000000000000        0x6 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.dst_mctl_random_write
+                0x0000000000000000        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.dst_mem_compare
+                0x0000000000000000       0x1e /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.dram_udelay
+                0x0000000000000000        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.dwc_ddrphy_phyinit_E_setDfiClk
+                0x0000000000000000       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.__dram_power_save_process
+                0x0000000000000000      0x148 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.dram_power_save_process
+                0x0000000000000000        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.__dram_power_up_process
+                0x0000000000000000        0x8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.dram_power_up_process
+                0x0000000000000000        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text._get_pll4_periph1_clk
+                0x0000000000000000        0x8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text._Getpll6Clk
+                0x0000000000000000        0x6 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text._close_ndfc_clk_v1
+                0x0000000000000000       0x30 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text._close_ndfc_ahb_gate_and_reset_v1
+                0x0000000000000000       0x3c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.NAND_SetClk
+                0x0000000000000000       0xc0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.NAND_GetClk
+                0x0000000000000000       0x7c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.NAND_EnRbInt
+                0x0000000000000000        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.NAND_ClearRbInt
+                0x0000000000000000        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.NAND_WaitRbReady
+                0x0000000000000000        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.NAND_RbInterrupt
+                0x0000000000000000        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.NFC_InitDDRParam
+                0x0000000000000000       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.NFC_Is_Toggle_Interface
+                0x0000000000000000       0x1c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text._vender_pre_condition
+                0x0000000000000000        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text._add_cmd_list
+                0x0000000000000000       0x22 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text._cal_real_chip
+                0x0000000000000000        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text._cal_real_rb
+                0x0000000000000000        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text._random_seed_init
+                0x0000000000000000        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text._cal_random_seed
+                0x0000000000000000       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.PHY_SimpleRead_1K
+                0x0000000000000000        0x6 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.Spic_set_master_slave
+                0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.Spic_set_transmit_LSB
+                0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.Spic_set_ss_level
+                0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.Spic_set_sample_mode
+                0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.Spic_set_sample
+                0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.Spic_set_trans_mode
+                0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.Spic_set_wait_clk
+                0x0000000000000000       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.Getpll6Clk
+                0x0000000000000000        0x8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.SPINAND_GetClk
+                0x0000000000000000       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.SPINAND_Malloc
+                0x0000000000000000        0x6 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.get_power_source
+                0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.set_power_reset
+                0x0000000000000000        0x6 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.probe_power_key
+                0x0000000000000000       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.set_ddr4_2v5_voltage
+                0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.set_sys_voltage_ext
+                0x0000000000000000       0x24 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.set_efuse_voltage
+                0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp_reg_read
+                0x0000000000000000       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp_reg_write
+                0x0000000000000000       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.get_pmu_exist
+                0x0000000000000000        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp858_probe_power_key
+                0x0000000000000000       0x40 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp858_set_ddr4_2v5_voltage
+                0x0000000000000000       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp858_set_sys_voltage_ext
+                0x0000000000000000        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp858_reg_read
+                0x0000000000000000        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp858_reg_write
+                0x0000000000000000        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp1530_probe_power_key
+                0x0000000000000000       0x40 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp1530_set_efuse_voltage
+                0x0000000000000000       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp1530_reg_read
+                0x0000000000000000        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp1530_reg_write
+                0x0000000000000000        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp806_probe_power_key
+                0x0000000000000000       0x40 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp806_get_power_source
+                0x0000000000000000       0x38 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp806_set_sys_voltage_ext
+                0x0000000000000000        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp806_reg_read
+                0x0000000000000000        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.axp806_reg_write
+                0x0000000000000000        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sid_read_work_status
+                0x0000000000000000        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sid_sram_read
+                0x0000000000000000        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sid_read_key
+                0x0000000000000000       0x4c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sid_program_key
+                0x0000000000000000       0x64 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sid_read_rotpk
+                0x0000000000000000       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sid_set_security_mode
+                0x0000000000000000       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sid_disable_jtag
+                0x0000000000000000       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sid_probe_security_mode
+                0x0000000000000000       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text.sunxi_disable_sd_boot
+                0x0000000000000000       0x3c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .text          0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+ .data          0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+ .bss           0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+ .data          0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .data          0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .bss           0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .text          0x0000000000000000        0x0 main/boot0_head.o
+ .data          0x0000000000000000        0x0 main/boot0_head.o
+ .bss           0x0000000000000000        0x0 main/boot0_head.o
+ .data          0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/boot0_entry.o
+ .bss           0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/boot0_entry.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+LOAD /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+LOAD /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a
+                0x0000000000020000                . = 0x20000
+                0x0000000000020000                . = ALIGN (0x4)
+
+.head           0x0000000000020000      0xb00
+ main/boot0_head.o(.rodata)
+ .rodata        0x0000000000020000      0xb00 main/boot0_head.o
+                0x0000000000020000                BT0_head
+                0x0000000000020b00                . = ALIGN (0x1)
+
+.text           0x0000000000020b00      0xd3c
+ /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/boot0_entry.o(.text)
+ .text          0x0000000000020b00       0x64 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/boot0_entry.o
+                0x0000000000020b00                _start
+ *(.text)
+ .text          0x0000000000020b64      0x7a0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000020b64                __v7_flush_dcache_all
+                0x0000000000020c00                v7_flush_dcache_all
+                0x0000000000020c2c                memset0
+                0x0000000000020ce4                memcpy0
+                0x0000000000021094                switch_2_secure0
+                0x000000000002109c                switch_2_nonsecure0
+                0x00000000000210a4                dst_mctl_random_write0
+                0x0000000000021138                dst_neon_init0
+                0x0000000000021158                dst_mctl_neon_cmp0
+                0x00000000000211b0                dst_mctl_neon_write0
+                0x0000000000021230                dst_mctl_neon_write_2data0
+                0x00000000000212ac                dst_mctl_neon_copy0
+ *fill*         0x0000000000021304        0x4 
+ .text          0x0000000000021308      0x278 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+                0x0000000000021308                __udivsi3
+                0x0000000000021308                __aeabi_uidiv
+                0x0000000000021564                __aeabi_uidivmod
+ .text          0x0000000000021580      0x2b0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+                0x0000000000021580                __aeabi_idiv
+                0x0000000000021580                __divsi3
+                0x0000000000021814                __aeabi_idivmod
+ .text          0x0000000000021830        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+                0x0000000000021830                __aeabi_ldiv0
+                0x0000000000021830                __aeabi_idiv0
+
+.glue_7         0x000000000002183c        0x0
+ .glue_7        0x000000000002183c        0x0 linker stubs
+
+.glue_7t        0x000000000002183c        0x0
+ .glue_7t       0x000000000002183c        0x0 linker stubs
+
+.vfp11_veneer   0x000000000002183c        0x0
+ .vfp11_veneer  0x000000000002183c        0x0 linker stubs
+
+.v4_bx          0x000000000002183c        0x0
+ .v4_bx         0x000000000002183c        0x0 linker stubs
+
+.text.get_sys_ticks
+                0x000000000002183c       0x14
+ .text.get_sys_ticks
+                0x000000000002183c       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002183c                get_sys_ticks
+
+.text.udelay    0x0000000000021850       0x24
+ .text.udelay   0x0000000000021850       0x24 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021850                udelay
+
+.text.mdelay    0x0000000000021874        0xa
+ .text.mdelay   0x0000000000021874        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021874                mdelay
+
+.text.__usdelay
+                0x000000000002187e        0x4
+ .text.__usdelay
+                0x000000000002187e        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002187e                __usdelay
+
+.text.mmu_enable
+                0x0000000000021882       0x8c
+ .text.mmu_enable
+                0x0000000000021882       0x8c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021882                mmu_enable
+
+.text.mmu_disable
+                0x000000000002190e       0x30
+ .text.mmu_disable
+                0x000000000002190e       0x30 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002190e                mmu_disable
+
+.text.data_sync_barrier
+                0x000000000002193e        0xa
+ .text.data_sync_barrier
+                0x000000000002193e        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002193e                data_sync_barrier
+
+.text.neon_enable
+                0x0000000000021948       0x2c
+ .text.neon_enable
+                0x0000000000021948       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021948                neon_enable
+
+.text.flush_dcache_range
+                0x0000000000021974        0x2
+ .text.flush_dcache_range
+                0x0000000000021974        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021974                flush_dcache_range
+
+.text.boot0_jmp
+                0x0000000000021976        0xc
+ .text.boot0_jmp
+                0x0000000000021976        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021976                boot0_jmp
+
+.text.boot0_jmp_optee
+                0x0000000000021982        0xc
+ .text.boot0_jmp_optee
+                0x0000000000021982        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021982                boot0_jmp_optee
+
+.text.boot0_jmp_monitor
+                0x0000000000021990       0x58
+ .text.boot0_jmp_monitor
+                0x0000000000021990       0x58 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021990                boot0_jmp_monitor
+
+.text.boot0_jmp_opensbi
+                0x00000000000219e8        0x4
+ .text.boot0_jmp_opensbi
+                0x00000000000219e8        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000219e8                boot0_jmp_opensbi
+
+.text.set_cpu_down
+                0x00000000000219ec       0x44
+ .text.set_cpu_down
+                0x00000000000219ec       0x44 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+
+.text.sunxi_board_init
+                0x0000000000021a30       0xe0
+ .text.sunxi_board_init
+                0x0000000000021a30       0xe0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021a30                sunxi_board_init
+
+.text.sunxi_board_late_init
+                0x0000000000021b10       0x70
+ .text.sunxi_board_late_init
+                0x0000000000021b10       0x70 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021b10                sunxi_board_late_init
+
+.text.sunxi_board_exit
+                0x0000000000021b80        0x4
+ .text.sunxi_board_exit
+                0x0000000000021b80        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021b80                sunxi_board_exit
+
+.text.sunxi_board_pll_init
+                0x0000000000021b84      0x26c
+ .text.sunxi_board_pll_init
+                0x0000000000021b84      0x26c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021b84                sunxi_board_pll_init
+
+.text.sunxi_board_clock_reset
+                0x0000000000021df0       0x28
+ .text.sunxi_board_clock_reset
+                0x0000000000021df0       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021df0                sunxi_board_clock_reset
+
+.text.sunxi_clock_init_key
+                0x0000000000021e18       0x28
+ .text.sunxi_clock_init_key
+                0x0000000000021e18       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021e18                sunxi_clock_init_key
+
+.text.sunxi_clock_init_gpadc
+                0x0000000000021e40        0x4
+ .text.sunxi_clock_init_gpadc
+                0x0000000000021e40        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021e40                sunxi_clock_init_gpadc
+
+.text.sunxi_clock_init_uart
+                0x0000000000021e44       0x30
+ .text.sunxi_clock_init_uart
+                0x0000000000021e44       0x30 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021e44                sunxi_clock_init_uart
+
+.text.strncmp   0x0000000000021e74       0x22
+ .text.strncmp  0x0000000000021e74       0x22 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021e74                strncmp
+
+.text.strlen    0x0000000000021e96       0x10
+ .text.strlen   0x0000000000021e96       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021e96                strlen
+
+.text.memset    0x0000000000021ea8        0xc
+ .text.memset   0x0000000000021ea8        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021ea8                memset
+
+.text.memcpy    0x0000000000021eb4        0xc
+ .text.memcpy   0x0000000000021eb4        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000021eb4                memcpy
+
+.text.putc_outstr
+                0x0000000000021ec0        0xa
+ .text.putc_outstr
+                0x0000000000021ec0        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+
+.text.putc_normal
+                0x0000000000021eca        0x6
+ .text.putc_normal
+                0x0000000000021eca        0x6 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+
+.text.div_out   0x0000000000021ed0       0x32
+ .text.div_out  0x0000000000021ed0       0x32 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+
+.text._vprintf  0x0000000000021f04      0x1e4
+ .text._vprintf
+                0x0000000000021f04      0x1e4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+
+.text.sunxi_set_printf_debug_mode
+                0x00000000000220e8       0x28
+ .text.sunxi_set_printf_debug_mode
+                0x00000000000220e8       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000220e8                sunxi_set_printf_debug_mode
+
+.text.sunxi_get_printf_debug_mode
+                0x0000000000022110        0xc
+ .text.sunxi_get_printf_debug_mode
+                0x0000000000022110        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022110                sunxi_get_printf_debug_mode
+
+.text.sunxi_get_debug_mode_for_uboot
+                0x000000000002211c       0x18
+ .text.sunxi_get_debug_mode_for_uboot
+                0x000000000002211c       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002211c                sunxi_get_debug_mode_for_uboot
+
+.text.sprintf   0x0000000000022134       0x2c
+ .text.sprintf  0x0000000000022134       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022134                sprintf
+
+.text.printf    0x0000000000022160       0x54
+ .text.printf   0x0000000000022160       0x54 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022160                printf
+
+.text.verify_addsum
+                0x00000000000221b4       0x60
+ .text.verify_addsum
+                0x00000000000221b4       0x60 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000221b4                verify_addsum
+
+.text.g_mod     0x0000000000022214       0x22
+ .text.g_mod    0x0000000000022214       0x22 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022214                g_mod
+
+.text.get_page_buf
+                0x0000000000022238        0x8
+ .text.get_page_buf
+                0x0000000000022238        0x8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022238                get_page_buf
+
+.text.get_uart_input
+                0x0000000000022240       0x24
+ .text.get_uart_input
+                0x0000000000022240       0x24 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022240                get_uart_input
+
+.text.set_uboot_func_mask
+                0x0000000000022264       0x10
+ .text.set_uboot_func_mask
+                0x0000000000022264       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022264                set_uboot_func_mask
+
+.text.get_uboot_func_mask
+                0x0000000000022274        0xc
+ .text.get_uboot_func_mask
+                0x0000000000022274        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022274                get_uboot_func_mask
+
+.text.sunxi_board_init_early
+                0x0000000000022280        0x4
+ .text.sunxi_board_init_early
+                0x0000000000022280        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022280                sunxi_board_init_early
+
+.text.raise     0x0000000000022284        0x4
+ .text.raise    0x0000000000022284        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022284                raise
+
+.text.malloc_init
+                0x0000000000022288       0x1c
+ .text.malloc_init
+                0x0000000000022288       0x1c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022288                malloc_init
+
+.text.sunxi_get_iobase
+                0x00000000000222a4        0x2
+ .text.sunxi_get_iobase
+                0x00000000000222a4        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000222a4                sunxi_get_iobase
+
+.text.sunxi_get_lw32_addr
+                0x00000000000222a6        0x2
+ .text.sunxi_get_lw32_addr
+                0x00000000000222a6        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000222a6                sunxi_get_lw32_addr
+
+.text.sunxi_serial_init
+                0x00000000000222a8       0x54
+ .text.sunxi_serial_init
+                0x00000000000222a8       0x54 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000222a8                sunxi_serial_init
+
+.text.sunxi_serial_putc
+                0x00000000000222fc       0x14
+ .text.sunxi_serial_putc
+                0x00000000000222fc       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000222fc                sunxi_serial_putc
+
+.text.sunxi_serial_getc
+                0x0000000000022310       0x14
+ .text.sunxi_serial_getc
+                0x0000000000022310       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022310                sunxi_serial_getc
+
+.text.sunxi_serial_tstc
+                0x0000000000022324       0x10
+ .text.sunxi_serial_tstc
+                0x0000000000022324       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022324                sunxi_serial_tstc
+
+.text.boot_set_gpio
+                0x0000000000022334      0x2e8
+ .text.boot_set_gpio
+                0x0000000000022334      0x2e8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022334                boot_set_gpio
+
+.text.rtc_write_data
+                0x000000000002261c       0x18
+ .text.rtc_write_data
+                0x000000000002261c       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002261c                rtc_write_data
+
+.text.rtc_read_data
+                0x0000000000022634       0x14
+ .text.rtc_read_data
+                0x0000000000022634       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022634                rtc_read_data
+
+.text.rtc_probe_fel_flag
+                0x0000000000022648       0x78
+ .text.rtc_probe_fel_flag
+                0x0000000000022648       0x78 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022648                rtc_probe_fel_flag
+
+.text.rtc_clear_fel_flag
+                0x00000000000226c0       0x1a
+ .text.rtc_clear_fel_flag
+                0x00000000000226c0       0x1a /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000226c0                rtc_clear_fel_flag
+
+.text.i2c_sendbyteaddr
+                0x00000000000226dc       0x38
+ .text.i2c_sendbyteaddr
+                0x00000000000226dc       0x38 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+
+.text.i2c_sendstart
+                0x0000000000022714       0x40
+ .text.i2c_sendstart
+                0x0000000000022714       0x40 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+
+.text.i2c_sendslaveaddr
+                0x0000000000022754       0x4c
+ .text.i2c_sendslaveaddr
+                0x0000000000022754       0x4c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+
+.text.i2c_stop  0x00000000000227a0       0x4c
+ .text.i2c_stop
+                0x00000000000227a0       0x4c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+
+.text.i2c_read  0x00000000000227ec      0x15c
+ .text.i2c_read
+                0x00000000000227ec      0x15c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000227ec                i2c_read
+
+.text.i2c_write
+                0x0000000000022948       0xb0
+ .text.i2c_write
+                0x0000000000022948       0xb0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022948                i2c_write
+
+.text.i2c_set_clock
+                0x00000000000229f8       0xdc
+ .text.i2c_set_clock
+                0x00000000000229f8       0xdc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000229f8                i2c_set_clock
+
+.text.get_i2c_gpio
+                0x0000000000022ad4       0x20
+ .text.get_i2c_gpio
+                0x0000000000022ad4       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022ad4                get_i2c_gpio
+
+.text.i2c_init  0x0000000000022af4       0x98
+ .text.i2c_init
+                0x0000000000022af4       0x98 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022af4                i2c_init
+
+.text.i2c_init_cpus
+                0x0000000000022b8c       0x38
+ .text.i2c_init_cpus
+                0x0000000000022b8c       0x38 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022b8c                i2c_init_cpus
+
+.text.pmic_bus_init
+                0x0000000000022bc4        0xa
+ .text.pmic_bus_init
+                0x0000000000022bc4        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022bc4                pmic_bus_init
+
+.text.pmic_bus_read
+                0x0000000000022bce       0x14
+ .text.pmic_bus_read
+                0x0000000000022bce       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022bce                pmic_bus_read
+
+.text.pmic_bus_write
+                0x0000000000022be2       0x18
+ .text.pmic_bus_write
+                0x0000000000022be2       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022be2                pmic_bus_write
+
+.text.super_standby_mode
+                0x0000000000022bfc       0x10
+ .text.super_standby_mode
+                0x0000000000022bfc       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022bfc                super_standby_mode
+
+.text.handler_super_standby
+                0x0000000000022c0c       0xf2
+ .text.handler_super_standby
+                0x0000000000022c0c       0xf2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022c0c                handler_super_standby
+
+.text.wdt_stop  0x0000000000022d00       0x10
+ .text.wdt_stop
+                0x0000000000022d00       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022d00                wdt_stop
+
+.text.wdt_start
+                0x0000000000022d10       0x2c
+ .text.wdt_start
+                0x0000000000022d10       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022d10                wdt_start
+
+.text.sunxi_dma_init
+                0x0000000000022d3c       0xac
+ .text.sunxi_dma_init
+                0x0000000000022d3c       0xac /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022d3c                sunxi_dma_init
+
+.text.sunxi_dma_request
+                0x0000000000022de8       0x28
+ .text.sunxi_dma_request
+                0x0000000000022de8       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022de8                sunxi_dma_request
+
+.text.sunxi_dma_setting
+                0x0000000000022e10       0x3c
+ .text.sunxi_dma_setting
+                0x0000000000022e10       0x3c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022e10                sunxi_dma_setting
+
+.text.sunxi_dma_start
+                0x0000000000022e4c       0x30
+ .text.sunxi_dma_start
+                0x0000000000022e4c       0x30 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022e4c                sunxi_dma_start
+
+.text.sunxi_dma_querystatus
+                0x0000000000022e7c       0x1c
+ .text.sunxi_dma_querystatus
+                0x0000000000022e7c       0x1c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022e7c                sunxi_dma_querystatus
+
+.text.sunxi_dma_disable_int
+                0x0000000000022e98       0x70
+ .text.sunxi_dma_disable_int
+                0x0000000000022e98       0x70 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022e98                sunxi_dma_disable_int
+
+.text.sunxi_dma_free_int
+                0x0000000000022f08       0x40
+ .text.sunxi_dma_free_int
+                0x0000000000022f08       0x40 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022f08                sunxi_dma_free_int
+
+.text.sunxi_dma_exit
+                0x0000000000022f48       0x64
+ .text.sunxi_dma_exit
+                0x0000000000022f48       0x64 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022f48                sunxi_dma_exit
+
+.text.sunxi_dma_release
+                0x0000000000022fac       0x1e
+ .text.sunxi_dma_release
+                0x0000000000022fac       0x1e /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022fac                sunxi_dma_release
+
+.text.sunxi_gpadc_init
+                0x0000000000022fcc       0x40
+ .text.sunxi_gpadc_init
+                0x0000000000022fcc       0x40 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000022fcc                sunxi_gpadc_init
+
+.text.sunxi_read_gpadc
+                0x000000000002300c       0x3c
+ .text.sunxi_read_gpadc
+                0x000000000002300c       0x3c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002300c                sunxi_read_gpadc
+
+.text.sunxi_read_gpadc_vol
+                0x0000000000023048       0x74
+ .text.sunxi_read_gpadc_vol
+                0x0000000000023048       0x74 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000023048                sunxi_read_gpadc_vol
+
+.text.get_boot_dram_training_enable_flag
+                0x00000000000230bc        0x8
+ .text.get_boot_dram_training_enable_flag
+                0x00000000000230bc        0x8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000230bc                get_boot_dram_training_enable_flag
+
+.text.sunxi_dram_handle
+                0x00000000000230c4      0x1b8
+ .text.sunxi_dram_handle
+                0x00000000000230c4      0x1b8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000230c4                sunxi_dram_handle
+
+.text.sunxi_dram_soft_train
+                0x000000000002327c        0xc
+ .text.sunxi_dram_soft_train
+                0x000000000002327c        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002327c                sunxi_dram_soft_train
+
+.text.crc_16    0x0000000000023288       0x22
+ .text.crc_16   0x0000000000023288       0x22 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000023288                crc_16
+
+.text.disturb_coding
+                0x00000000000232aa       0x12
+ .text.disturb_coding
+                0x00000000000232aa       0x12 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000232aa                disturb_coding
+
+.text.id_judge_fun
+                0x00000000000232bc       0x88
+ .text.id_judge_fun
+                0x00000000000232bc       0x88 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000232bc                id_judge_fun
+
+.text.switch_2_secure
+                0x0000000000023344        0xc
+ .text.switch_2_secure
+                0x0000000000023344        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000023344                switch_2_secure
+
+.text.switch_2_nonsecure
+                0x0000000000023350        0xc
+ .text.switch_2_nonsecure
+                0x0000000000023350        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000023350                switch_2_nonsecure
+
+.text.dst_neon_init
+                0x000000000002335c        0xc
+ .text.dst_neon_init
+                0x000000000002335c        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002335c                dst_neon_init
+
+.text.dst_mctl_neon_cmp
+                0x0000000000023368        0xc
+ .text.dst_mctl_neon_cmp
+                0x0000000000023368        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000023368                dst_mctl_neon_cmp
+
+.text.dst_mctl_neon_write
+                0x0000000000023374        0xc
+ .text.dst_mctl_neon_write
+                0x0000000000023374        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000023374                dst_mctl_neon_write
+
+.text.dst_mctl_neon_write_2data
+                0x0000000000023380        0xc
+ .text.dst_mctl_neon_write_2data
+                0x0000000000023380        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000023380                dst_mctl_neon_write_2data
+
+.text.dst_mctl_neon_copy
+                0x000000000002338c        0xc
+ .text.dst_mctl_neon_copy
+                0x000000000002338c        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002338c                dst_mctl_neon_copy
+
+.text.dst_mem_cmp
+                0x0000000000023398       0x22
+ .text.dst_mem_cmp
+                0x0000000000023398       0x22 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000023398                dst_mem_cmp
+
+.text.dramc_memtester_dma_test
+                0x00000000000233bc      0x18c
+ .text.dramc_memtester_dma_test
+                0x00000000000233bc      0x18c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000233bc                dramc_memtester_dma_test
+
+.text.dst_read_cmp
+                0x0000000000023548       0x50
+ .text.dst_read_cmp
+                0x0000000000023548       0x50 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000023548                dst_read_cmp
+
+.text.dst_dq_eye_scan
+                0x0000000000023598      0xebc
+ .text.dst_dq_eye_scan
+                0x0000000000023598      0xebc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000023598                dst_dq_eye_scan
+
+.text.dst_from_none
+                0x0000000000024454       0xf0
+ .text.dst_from_none
+                0x0000000000024454       0xf0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000024454                dst_from_none
+
+.text.auto_cal_timing
+                0x0000000000024544       0x24
+ .text.auto_cal_timing
+                0x0000000000024544       0x24 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000024544                auto_cal_timing
+
+.text.dramc_simple_wr_test
+                0x0000000000024568       0x8c
+ .text.dramc_simple_wr_test
+                0x0000000000024568       0x8c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000024568                dramc_simple_wr_test
+
+.text.DRAMC_get_dram_size
+                0x00000000000245f4       0x4c
+ .text.DRAMC_get_dram_size
+                0x00000000000245f4       0x4c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000245f4                DRAMC_get_dram_size
+
+.text.set_master_priority
+                0x0000000000024640      0x128
+ .text.set_master_priority
+                0x0000000000024640      0x128 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000024640                set_master_priority
+
+.text.Wait_time_config
+                0x0000000000024768       0x14
+ .text.Wait_time_config
+                0x0000000000024768       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000024768                Wait_time_config
+
+.text.dram_vol_set
+                0x000000000002477c       0x70
+ .text.dram_vol_set
+                0x000000000002477c       0x70 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002477c                dram_vol_set
+
+.text.ccm_set_pll_ddr0_sscg
+                0x00000000000247ec       0x5c
+ .text.ccm_set_pll_ddr0_sscg
+                0x00000000000247ec       0x5c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000247ec                ccm_set_pll_ddr0_sscg
+
+.text._ccm_set_pll_ddr_clk
+                0x0000000000024848       0x44
+ .text._ccm_set_pll_ddr_clk
+                0x0000000000024848       0x44 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000024848                _ccm_set_pll_ddr_clk
+
+.text.mctl_dfi_init
+                0x000000000002488c      0x2f4
+ .text.mctl_dfi_init
+                0x000000000002488c      0x2f4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002488c                mctl_dfi_init
+
+.text.mctl_phy_vref_config
+                0x0000000000024b80       0x48
+ .text.mctl_phy_vref_config
+                0x0000000000024b80       0x48 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000024b80                mctl_phy_vref_config
+
+.text.mctl_drive_odt_config
+                0x0000000000024bc8      0x180
+ .text.mctl_drive_odt_config
+                0x0000000000024bc8      0x180 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000024bc8                mctl_drive_odt_config
+
+.text.mctl_phy_ca_bit_delay_compensation
+                0x0000000000024d48      0x188
+ .text.mctl_phy_ca_bit_delay_compensation
+                0x0000000000024d48      0x188 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000024d48                mctl_phy_ca_bit_delay_compensation
+
+.text.mctl_phy_dx_bit_delay_compensation
+                0x0000000000024ed0      0x3c4
+ .text.mctl_phy_dx_bit_delay_compensation
+                0x0000000000024ed0      0x3c4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000024ed0                mctl_phy_dx_bit_delay_compensation
+
+.text.mctl_phy_set_address_remapping
+                0x0000000000025294      0x23c
+ .text.mctl_phy_set_address_remapping
+                0x0000000000025294      0x23c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000025294                mctl_phy_set_address_remapping
+
+.text.mctl_phy_cold_reset
+                0x00000000000254d0       0x2c
+ .text.mctl_phy_cold_reset
+                0x00000000000254d0       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000254d0                mctl_phy_cold_reset
+
+.text.phy_para_config
+                0x00000000000254fc      0x198
+ .text.phy_para_config
+                0x00000000000254fc      0x198 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000254fc                phy_para_config
+
+.text.phy_write_leveling
+                0x0000000000025694      0x118
+ .text.phy_write_leveling
+                0x0000000000025694      0x118 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000025694                phy_write_leveling
+
+.text.phy_read_calibration
+                0x00000000000257ac      0x144
+ .text.phy_read_calibration
+                0x00000000000257ac      0x144 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000257ac                phy_read_calibration
+
+.text.phy_read_training
+                0x00000000000258f0      0x374
+ .text.phy_read_training
+                0x00000000000258f0      0x374 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000258f0                phy_read_training
+
+.text.phy_write_training
+                0x0000000000025c64      0x334
+ .text.phy_write_training
+                0x0000000000025c64      0x334 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000025c64                phy_write_training
+
+.text.phy_zq_calibration
+                0x0000000000025f98      0x190
+ .text.phy_zq_calibration
+                0x0000000000025f98      0x190 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000025f98                phy_zq_calibration
+
+.text.mctl_com_set_controller_refresh
+                0x0000000000026128       0x14
+ .text.mctl_com_set_controller_refresh
+                0x0000000000026128       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026128                mctl_com_set_controller_refresh
+
+.text.mctl_com_set_controller_after_phy
+                0x000000000002613c       0x4c
+ .text.mctl_com_set_controller_after_phy
+                0x000000000002613c       0x4c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002613c                mctl_com_set_controller_after_phy
+
+.text.mctl_com_set_controller_before_phy
+                0x0000000000026188       0x38
+ .text.mctl_com_set_controller_before_phy
+                0x0000000000026188       0x38 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026188                mctl_com_set_controller_before_phy
+
+.text.mctl_com_set_controller_dbi
+                0x00000000000261c0       0x18
+ .text.mctl_com_set_controller_dbi
+                0x00000000000261c0       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000261c0                mctl_com_set_controller_dbi
+
+.text.mctl_com_set_controller_update
+                0x00000000000261d8       0x40
+ .text.mctl_com_set_controller_update
+                0x00000000000261d8       0x40 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000261d8                mctl_com_set_controller_update
+
+.text.mctl_com_set_channel_timing
+                0x0000000000026218      0x92c
+ .text.mctl_com_set_channel_timing
+                0x0000000000026218      0x92c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026218                mctl_com_set_channel_timing
+
+.text.mctl_com_set_controller_address_map
+                0x0000000000026b44      0x1dc
+ .text.mctl_com_set_controller_address_map
+                0x0000000000026b44      0x1dc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026b44                mctl_com_set_controller_address_map
+
+.text.mctl_com_set_controller_odt
+                0x0000000000026d20       0x9c
+ .text.mctl_com_set_controller_odt
+                0x0000000000026d20       0x9c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026d20                mctl_com_set_controller_odt
+
+.text.mctl_com_set_controller_2T_mode
+                0x0000000000026dbc       0x20
+ .text.mctl_com_set_controller_2T_mode
+                0x0000000000026dbc       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026dbc                mctl_com_set_controller_2T_mode
+
+.text.mctl_com_set_controller_geardown_mode
+                0x0000000000026ddc       0x14
+ .text.mctl_com_set_controller_geardown_mode
+                0x0000000000026ddc       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026ddc                mctl_com_set_controller_geardown_mode
+
+.text.mctl_com_set_controller_config
+                0x0000000000026df0       0x44
+ .text.mctl_com_set_controller_config
+                0x0000000000026df0       0x44 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026df0                mctl_com_set_controller_config
+
+.text.mctl_com_init
+                0x0000000000026e34       0x60
+ .text.mctl_com_init
+                0x0000000000026e34       0x60 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026e34                mctl_com_init
+
+.text.mctl_com_set_bus_config
+                0x0000000000026e94       0x24
+ .text.mctl_com_set_bus_config
+                0x0000000000026e94       0x24 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026e94                mctl_com_set_bus_config
+
+.text.mctl_sys_init
+                0x0000000000026eb8       0xec
+ .text.mctl_sys_init
+                0x0000000000026eb8       0xec /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026eb8                mctl_sys_init
+
+.text.mctl_core_init
+                0x0000000000026fa4       0x1c
+ .text.mctl_core_init
+                0x0000000000026fa4       0x1c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026fa4                mctl_core_init
+
+.text.auto_scan_dram_size
+                0x0000000000026fc0      0x1a8
+ .text.auto_scan_dram_size
+                0x0000000000026fc0      0x1a8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000026fc0                auto_scan_dram_size
+
+.text.auto_scan_dram_rank_width
+                0x0000000000027168       0x98
+ .text.auto_scan_dram_rank_width
+                0x0000000000027168       0x98 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027168                auto_scan_dram_rank_width
+
+.text.auto_scan_dram_config
+                0x0000000000027200       0xd4
+ .text.auto_scan_dram_config
+                0x0000000000027200       0xd4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027200                auto_scan_dram_config
+
+.text.ddrphy_phyinit_C_initPhyConfig
+                0x00000000000272d4      0x198
+ .text.ddrphy_phyinit_C_initPhyConfig
+                0x00000000000272d4      0x198 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000272d4                ddrphy_phyinit_C_initPhyConfig
+
+.text.mctl_phy_init
+                0x000000000002746c       0x12
+ .text.mctl_phy_init
+                0x000000000002746c       0x12 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002746c                mctl_phy_init
+
+.text.mctl_channel_init
+                0x0000000000027480       0x50
+ .text.mctl_channel_init
+                0x0000000000027480       0x50 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027480                mctl_channel_init
+
+.text.init_DRAM
+                0x00000000000274d0      0x240
+ .text.init_DRAM
+                0x00000000000274d0      0x240 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000274d0                init_DRAM
+
+.text.crc_16_sd
+                0x0000000000027710       0x22
+ .text.crc_16_sd
+                0x0000000000027710       0x22 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027710                crc_16_sd
+
+.text.disturb_coding_sd
+                0x0000000000027732       0x12
+ .text.disturb_coding_sd
+                0x0000000000027732       0x12 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027732                disturb_coding_sd
+
+.text.bond_id_check
+                0x0000000000027744       0x46
+ .text.bond_id_check
+                0x0000000000027744       0x46 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027744                bond_id_check
+
+.text.load_and_check_in_one_blk
+                0x000000000002778c       0x54
+ .text.load_and_check_in_one_blk
+                0x000000000002778c       0x54 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002778c                load_and_check_in_one_blk
+
+.text.load_in_many_blks
+                0x00000000000277e0       0x9c
+ .text.load_in_many_blks
+                0x00000000000277e0       0x9c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000277e0                load_in_many_blks
+
+.text.NF_open   0x000000000002787c       0x6c
+ .text.NF_open  0x000000000002787c       0x6c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002787c                NF_open
+
+.text.NF_close  0x00000000000278e8       0x12
+ .text.NF_close
+                0x00000000000278e8       0x12 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000278e8                NF_close
+
+.text.NF_read   0x00000000000278fc       0xfc
+ .text.NF_read  0x00000000000278fc       0xfc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000278fc                NF_read
+
+.text.NF_read_status
+                0x00000000000279f8       0x3c
+ .text.NF_read_status
+                0x00000000000279f8       0x3c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000279f8                NF_read_status
+
+.text.load_uboot_in_one_block_judge
+                0x0000000000027a34       0x3c
+ .text.load_uboot_in_one_block_judge
+                0x0000000000027a34       0x3c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027a34                load_uboot_in_one_block_judge
+
+.text.NFB_GetFlashInfo
+                0x0000000000027a70       0x2c
+ .text.NFB_GetFlashInfo
+                0x0000000000027a70       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027a70                NFB_GetFlashInfo
+
+.text.NFB_PhyInit
+                0x0000000000027a9c       0x44
+ .text.NFB_PhyInit
+                0x0000000000027a9c       0x44 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027a9c                NFB_PhyInit
+
+.text.NFB_PhyExit
+                0x0000000000027ae0        0xa
+ .text.NFB_PhyExit
+                0x0000000000027ae0        0xa /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027ae0                NFB_PhyExit
+
+.text.NFB_PhyRead
+                0x0000000000027aea        0x4
+ .text.NFB_PhyRead
+                0x0000000000027aea        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027aea                NFB_PhyRead
+
+.text._Get_PLL_PERI
+                0x0000000000027af0       0x30
+ .text._Get_PLL_PERI
+                0x0000000000027af0       0x30 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027af0                _Get_PLL_PERI
+
+.text._change_ndfc_clk_v1
+                0x0000000000027b20      0x1f4
+ .text._change_ndfc_clk_v1
+                0x0000000000027b20      0x1f4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027b20                _change_ndfc_clk_v1
+
+.text._open_ndfc_ahb_gate_and_reset_v1
+                0x0000000000027d14       0x3c
+ .text._open_ndfc_ahb_gate_and_reset_v1
+                0x0000000000027d14       0x3c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027d14                _open_ndfc_ahb_gate_and_reset_v1
+
+.text.NAND_ClkRequest
+                0x0000000000027d50       0x44
+ .text.NAND_ClkRequest
+                0x0000000000027d50       0x44 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027d50                NAND_ClkRequest
+
+.text.NAND_ClkRelease
+                0x0000000000027d94        0x2
+ .text.NAND_ClkRelease
+                0x0000000000027d94        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027d94                NAND_ClkRelease
+
+.text.NAND_PIORequest
+                0x0000000000027d98       0x38
+ .text.NAND_PIORequest
+                0x0000000000027d98       0x38 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027d98                NAND_PIORequest
+
+.text.NAND_PIORelease
+                0x0000000000027dd0        0x2
+ .text.NAND_PIORelease
+                0x0000000000027dd0        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027dd0                NAND_PIORelease
+
+.text.NAND_WaitDmaFinish
+                0x0000000000027dd2        0x4
+ .text.NAND_WaitDmaFinish
+                0x0000000000027dd2        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027dd2                NAND_WaitDmaFinish
+
+.text.NAND_Malloc
+                0x0000000000027dd6        0x6
+ .text.NAND_Malloc
+                0x0000000000027dd6        0x6 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027dd6                NAND_Malloc
+
+.text.NAND_Free
+                0x0000000000027ddc        0x2
+ .text.NAND_Free
+                0x0000000000027ddc        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027ddc                NAND_Free
+
+.text.NAND_IORemap
+                0x0000000000027dde        0x2
+ .text.NAND_IORemap
+                0x0000000000027dde        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027dde                NAND_IORemap
+
+.text._InitNandPhyInfo
+                0x0000000000027de0       0x80
+ .text._InitNandPhyInfo
+                0x0000000000027de0       0x80 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027de0                _InitNandPhyInfo
+
+.text._CheckNandID
+                0x0000000000027e60       0x2c
+ .text._CheckNandID
+                0x0000000000027e60       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027e60                _CheckNandID
+
+.text.BOOT_AnalyzeNandSystem
+                0x0000000000027e8c       0xd8
+ .text.BOOT_AnalyzeNandSystem
+                0x0000000000027e8c       0xd8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027e8c                BOOT_AnalyzeNandSystem
+
+.text.NAND_Getlsbpage_type
+                0x0000000000027f64       0x10
+ .text.NAND_Getlsbpage_type
+                0x0000000000027f64       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027f64                NAND_Getlsbpage_type
+
+.text.Nand_Is_lsb_page
+                0x0000000000027f74       0xdc
+ .text.Nand_Is_lsb_page
+                0x0000000000027f74       0xdc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000027f74                Nand_Is_lsb_page
+
+.text.NAND_GetLsbblksize
+                0x0000000000028050       0x38
+ .text.NAND_GetLsbblksize
+                0x0000000000028050       0x38 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028050                NAND_GetLsbblksize
+
+.text.nfc_repeat_mode_enable
+                0x0000000000028088       0x28
+ .text.nfc_repeat_mode_enable
+                0x0000000000028088       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028088                nfc_repeat_mode_enable
+
+.text.nfc_repeat_mode_disable
+                0x00000000000280b0       0x28
+ .text.nfc_repeat_mode_disable
+                0x00000000000280b0       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000280b0                nfc_repeat_mode_disable
+
+.text._wait_cmdfifo_free
+                0x00000000000280d8       0x2c
+ .text._wait_cmdfifo_free
+                0x00000000000280d8       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000280d8                _wait_cmdfifo_free
+
+.text._wait_cmd_finish
+                0x0000000000028104       0x44
+ .text._wait_cmd_finish
+                0x0000000000028104       0x44 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028104                _wait_cmd_finish
+
+.text._dma_config_start
+                0x0000000000028148       0x64
+ .text._dma_config_start
+                0x0000000000028148       0x64 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028148                _dma_config_start
+
+.text._wait_dma_end
+                0x00000000000281ac       0x2c
+ .text._wait_dma_end
+                0x00000000000281ac       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000281ac                _wait_dma_end
+
+.text._reset    0x00000000000281d8       0x44
+ .text._reset   0x00000000000281d8       0x44 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000281d8                _reset
+
+.text._check_ecc
+                0x000000000002821c       0xd4
+ .text._check_ecc
+                0x000000000002821c       0xd4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002821c                _check_ecc
+
+.text._disable_ecc
+                0x00000000000282f0       0x20
+ .text._disable_ecc
+                0x00000000000282f0       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000282f0                _disable_ecc
+
+.text._enable_ecc
+                0x0000000000028310       0x38
+ .text._enable_ecc
+                0x0000000000028310       0x38 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028310                _enable_ecc
+
+.text._set_addr
+                0x0000000000028348       0x48
+ .text._set_addr
+                0x0000000000028348       0x48 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028348                _set_addr
+
+.text.ndfc_set_user_data_len
+                0x0000000000028390       0xb4
+ .text.ndfc_set_user_data_len
+                0x0000000000028390       0xb4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028390                ndfc_set_user_data_len
+
+.text._read_in_page_mode
+                0x0000000000028444      0x1e4
+ .text._read_in_page_mode
+                0x0000000000028444      0x1e4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028444                _read_in_page_mode
+
+.text.NFC_Read  0x0000000000028628       0x28
+ .text.NFC_Read
+                0x0000000000028628       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028628                NFC_Read
+
+.text.nfc_set_cmd_register
+                0x0000000000028650       0x78
+ .text.nfc_set_cmd_register
+                0x0000000000028650       0x78 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028650                nfc_set_cmd_register
+
+.text.NFC_SetRandomSeed
+                0x00000000000286c8       0x24
+ .text.NFC_SetRandomSeed
+                0x00000000000286c8       0x24 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000286c8                NFC_SetRandomSeed
+
+.text.NFC_RandomEnable
+                0x00000000000286ec       0x24
+ .text.NFC_RandomEnable
+                0x00000000000286ec       0x24 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000286ec                NFC_RandomEnable
+
+.text.NFC_RandomDisable
+                0x0000000000028710       0x24
+ .text.NFC_RandomDisable
+                0x0000000000028710       0x24 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028710                NFC_RandomDisable
+
+.text.NFC_GetId
+                0x0000000000028734       0x40
+ .text.NFC_GetId
+                0x0000000000028734       0x40 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028734                NFC_GetId
+
+.text.NFC_GetFeature
+                0x0000000000028774       0x40
+ .text.NFC_GetFeature
+                0x0000000000028774       0x40 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028774                NFC_GetFeature
+
+.text.NFC_SetFeature
+                0x00000000000287b4       0xac
+ .text.NFC_SetFeature
+                0x00000000000287b4       0xac /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000287b4                NFC_SetFeature
+
+.text.NFC_Set_Legacy_Interface
+                0x0000000000028860       0x24
+ .text.NFC_Set_Legacy_Interface
+                0x0000000000028860       0x24 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028860                NFC_Set_Legacy_Interface
+
+.text.NFC_Set_Toggle_Interface
+                0x0000000000028884       0x24
+ .text.NFC_Set_Toggle_Interface
+                0x0000000000028884       0x24 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028884                NFC_Set_Toggle_Interface
+
+.text.NFC_GetStatus
+                0x00000000000288a8       0x34
+ .text.NFC_GetStatus
+                0x00000000000288a8       0x34 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000288a8                NFC_GetStatus
+
+.text.NFC_ResetChip
+                0x00000000000288dc       0x16
+ .text.NFC_ResetChip
+                0x00000000000288dc       0x16 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000288dc                NFC_ResetChip
+
+.text.NFC_SelectChip
+                0x00000000000288f4       0x2c
+ .text.NFC_SelectChip
+                0x00000000000288f4       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000288f4                NFC_SelectChip
+
+.text.NFC_SelectRb
+                0x0000000000028920       0x2c
+ .text.NFC_SelectRb
+                0x0000000000028920       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028920                NFC_SelectRb
+
+.text.NFC_DeSelectChip
+                0x000000000002894c        0x4
+ .text.NFC_DeSelectChip
+                0x000000000002894c        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002894c                NFC_DeSelectChip
+
+.text.NFC_DeSelectRb
+                0x0000000000028950        0x4
+ .text.NFC_DeSelectRb
+                0x0000000000028950        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028950                NFC_DeSelectRb
+
+.text.NFC_CheckRbReady
+                0x0000000000028954       0x28
+ .text.NFC_CheckRbReady
+                0x0000000000028954       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028954                NFC_CheckRbReady
+
+.text.NFC_ChangMode
+                0x000000000002897c       0xc8
+ .text.NFC_ChangMode
+                0x000000000002897c       0xc8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002897c                NFC_ChangMode
+
+.text.NFC_SetEccMode
+                0x0000000000028a44       0x28
+ .text.NFC_SetEccMode
+                0x0000000000028a44       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028a44                NFC_SetEccMode
+
+.text.NFC_Init  0x0000000000028a6c       0x5c
+ .text.NFC_Init
+                0x0000000000028a6c       0x5c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028a6c                NFC_Init
+
+.text.NFC_Exit  0x0000000000028ac8       0x30
+ .text.NFC_Exit
+                0x0000000000028ac8       0x30 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028ac8                NFC_Exit
+
+.text._vender_get_param
+                0x0000000000028af8       0x74
+ .text._vender_get_param
+                0x0000000000028af8       0x74 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028af8                _vender_get_param
+
+.text._vender_set_param
+                0x0000000000028b6c      0x12c
+ .text._vender_set_param
+                0x0000000000028b6c      0x12c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028b6c                _vender_set_param
+
+.text._vender_get_param_otp_hynix
+                0x0000000000028c98      0x260
+ .text._vender_get_param_otp_hynix
+                0x0000000000028c98      0x260 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028c98                _vender_get_param_otp_hynix
+
+.text._major_check_byte
+                0x0000000000028ef8       0xb4
+ .text._major_check_byte
+                0x0000000000028ef8       0xb4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028ef8                _major_check_byte
+
+.text._get_read_retry_cfg
+                0x0000000000028fac      0x100
+ .text._get_read_retry_cfg
+                0x0000000000028fac      0x100 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000028fac                _get_read_retry_cfg
+
+.text._read_otp_info_hynix
+                0x00000000000290ac      0x21c
+ .text._read_otp_info_hynix
+                0x00000000000290ac      0x21c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000290ac                _read_otp_info_hynix
+
+.text._get_rr_value_otp_hynix
+                0x00000000000292c8       0x70
+ .text._get_rr_value_otp_hynix
+                0x00000000000292c8       0x70 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000292c8                _get_rr_value_otp_hynix
+
+.text.NFC_ReadRetry
+                0x0000000000029338      0x10c
+ .text.NFC_ReadRetry
+                0x0000000000029338      0x10c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029338                NFC_ReadRetry
+
+.text.NFC_ReadRetryInit
+                0x0000000000029444      0x1ac
+ .text.NFC_ReadRetryInit
+                0x0000000000029444      0x1ac /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029444                NFC_ReadRetryInit
+
+.text.NFC_GetOTPValue
+                0x00000000000295f0       0x38
+ .text.NFC_GetOTPValue
+                0x00000000000295f0       0x38 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000295f0                NFC_GetOTPValue
+
+.text.NFC_GetDefaultParam
+                0x0000000000029628       0xe0
+ .text.NFC_GetDefaultParam
+                0x0000000000029628       0xe0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029628                NFC_GetDefaultParam
+
+.text.NFC_SetDefaultParam
+                0x0000000000029708       0x94
+ .text.NFC_SetDefaultParam
+                0x0000000000029708       0x94 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029708                NFC_SetDefaultParam
+
+.text.NFC_ReadRetryExit
+                0x000000000002979c        0x4
+ .text.NFC_ReadRetryExit
+                0x000000000002979c        0x4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002979c                NFC_ReadRetryExit
+
+.text._cal_addr_in_chip
+                0x00000000000297a0       0x6c
+ .text._cal_addr_in_chip
+                0x00000000000297a0       0x6c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000297a0                _cal_addr_in_chip
+
+.text._read_status
+                0x000000000002980c       0x26
+ .text._read_status
+                0x000000000002980c       0x26 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002980c                _read_status
+
+.text._wait_rb_ready
+                0x0000000000029832       0x1c
+ .text._wait_rb_ready
+                0x0000000000029832       0x1c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029832                _wait_rb_ready
+
+.text.PHY_Init  0x0000000000029850       0x2c
+ .text.PHY_Init
+                0x0000000000029850       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029850                PHY_Init
+
+.text.check_nand_special_info
+                0x000000000002987c       0x38
+ .text.check_nand_special_info
+                0x000000000002987c       0x38 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002987c                check_nand_special_info
+
+.text.PHY_SetDefaultParam
+                0x00000000000298b4       0x28
+ .text.PHY_SetDefaultParam
+                0x00000000000298b4       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000298b4                PHY_SetDefaultParam
+
+.text.PHY_ChangeMode
+                0x00000000000298dc       0xa4
+ .text.PHY_ChangeMode
+                0x00000000000298dc       0xa4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000298dc                PHY_ChangeMode
+
+.text.PHY_Exit  0x0000000000029980       0x28
+ .text.PHY_Exit
+                0x0000000000029980       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029980                PHY_Exit
+
+.text.PHY_ResetChip
+                0x00000000000299a8       0x6c
+ .text.PHY_ResetChip
+                0x00000000000299a8       0x6c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x00000000000299a8                PHY_ResetChip
+
+.text._read_single_page
+                0x0000000000029a14      0x220
+ .text._read_single_page
+                0x0000000000029a14      0x220 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029a14                _read_single_page
+
+.text.PHY_ReadNandId
+                0x0000000000029c34       0x3e
+ .text.PHY_ReadNandId
+                0x0000000000029c34       0x3e /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029c34                PHY_ReadNandId
+
+.text.PHY_GetFeature
+                0x0000000000029c72       0x3a
+ .text.PHY_GetFeature
+                0x0000000000029c72       0x3a /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029c72                PHY_GetFeature
+
+.text.PHY_SetFeature
+                0x0000000000029cac       0x3c
+ .text.PHY_SetFeature
+                0x0000000000029cac       0x3c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029cac                PHY_SetFeature
+
+.text.Setup_Ddr_Nand_Force_To_Sdr_Para
+                0x0000000000029ce8       0x64
+ .text.Setup_Ddr_Nand_Force_To_Sdr_Para
+                0x0000000000029ce8       0x64 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029ce8                Setup_Ddr_Nand_Force_To_Sdr_Para
+
+.text.PHY_SimpleRead
+                0x0000000000029d4c        0x6
+ .text.PHY_SimpleRead
+                0x0000000000029d4c        0x6 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029d4c                PHY_SimpleRead
+
+.text.PHY_GetDefaultParam
+                0x0000000000029d54      0x17c
+ .text.PHY_GetDefaultParam
+                0x0000000000029d54      0x17c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029d54                PHY_GetDefaultParam
+
+.text.PHY_SynchBank
+                0x0000000000029ed0       0xc0
+ .text.PHY_SynchBank
+                0x0000000000029ed0       0xc0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029ed0                PHY_SynchBank
+
+.text.Wait_Tc_Complete
+                0x0000000000029f90       0x2c
+ .text.Wait_Tc_Complete
+                0x0000000000029f90       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029f90                Wait_Tc_Complete
+
+.text.Spic_init
+                0x0000000000029fbc       0x58
+ .text.Spic_init
+                0x0000000000029fbc       0x58 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x0000000000029fbc                Spic_init
+
+.text.Spic_exit
+                0x000000000002a014       0x3c
+ .text.Spic_exit
+                0x000000000002a014       0x3c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a014                Spic_exit
+
+.text.Spic_sel_ss
+                0x000000000002a050       0x18
+ .text.Spic_sel_ss
+                0x000000000002a050       0x18 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a050                Spic_sel_ss
+
+.text.Spic_config_dual_mode
+                0x000000000002a068       0x14
+ .text.Spic_config_dual_mode
+                0x000000000002a068       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a068                Spic_config_dual_mode
+
+.text.spic0_dma_start
+                0x000000000002a07c       0x60
+ .text.spic0_dma_start
+                0x000000000002a07c       0x60 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a07c                spic0_dma_start
+
+.text.Spic_rw   0x000000000002a0dc      0x124
+ .text.Spic_rw  0x000000000002a0dc      0x124 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a0dc                Spic_rw
+
+.text.BOOT_AnalyzeSpiNandSystem
+                0x000000000002a200       0x80
+ .text.BOOT_AnalyzeSpiNandSystem
+                0x000000000002a200       0x80 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a200                BOOT_AnalyzeSpiNandSystem
+
+.text.SpiNand_GetFlashInfo
+                0x000000000002a280       0x32
+ .text.SpiNand_GetFlashInfo
+                0x000000000002a280       0x32 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a280                SpiNand_GetFlashInfo
+
+.text.SpiNand_PhyExit
+                0x000000000002a2b2        0xc
+ .text.SpiNand_PhyExit
+                0x000000000002a2b2        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a2b2                SpiNand_PhyExit
+
+.text.SpiNand_PhyInit
+                0x000000000002a2c0       0x60
+ .text.SpiNand_PhyInit
+                0x000000000002a2c0       0x60 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a2c0                SpiNand_PhyInit
+
+.text.SpiNand_Check_BadBlock
+                0x000000000002a320       0x48
+ .text.SpiNand_Check_BadBlock
+                0x000000000002a320       0x48 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a320                SpiNand_Check_BadBlock
+
+.text.SpiNand_Read
+                0x000000000002a368       0x90
+ .text.SpiNand_Read
+                0x000000000002a368       0x90 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a368                SpiNand_Read
+
+.text.Spinand_Load_Boot1_Copy
+                0x000000000002a3f8       0x6c
+ .text.Spinand_Load_Boot1_Copy
+                0x000000000002a3f8       0x6c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a3f8                Spinand_Load_Boot1_Copy
+
+.text.spi_nand_getsr
+                0x000000000002a464       0x30
+ .text.spi_nand_getsr
+                0x000000000002a464       0x30 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a464                spi_nand_getsr
+
+.text.spi_wait_status
+                0x000000000002a494       0x40
+ .text.spi_wait_status
+                0x000000000002a494       0x40 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a494                spi_wait_status
+
+.text.spi_nand_read_status
+                0x000000000002a4d4       0x70
+ .text.spi_nand_read_status
+                0x000000000002a4d4       0x70 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a4d4                spi_nand_read_status
+
+.text.spi_nand_setecc
+                0x000000000002a544       0x48
+ .text.spi_nand_setecc
+                0x000000000002a544       0x48 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a544                spi_nand_setecc
+
+.text.spi_nand_setblocklock
+                0x000000000002a58c       0x48
+ .text.spi_nand_setblocklock
+                0x000000000002a58c       0x48 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a58c                spi_nand_setblocklock
+
+.text.spi_nand_setotp
+                0x000000000002a5d4       0x48
+ .text.spi_nand_setotp
+                0x000000000002a5d4       0x48 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a5d4                spi_nand_setotp
+
+.text.spi_nand_reset
+                0x000000000002a61c       0x44
+ .text.spi_nand_reset
+                0x000000000002a61c       0x44 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a61c                spi_nand_reset
+
+.text.spi_nand_read_x1
+                0x000000000002a660      0x1b4
+ .text.spi_nand_read_x1
+                0x000000000002a660      0x1b4 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a660                spi_nand_read_x1
+
+.text.read_single_page
+                0x000000000002a814       0x5c
+ .text.read_single_page
+                0x000000000002a814       0x5c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a814                read_single_page
+
+.text.SPINAND_GetIOBaseAddr
+                0x000000000002a870        0x8
+ .text.SPINAND_GetIOBaseAddr
+                0x000000000002a870        0x8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a870                SPINAND_GetIOBaseAddr
+
+.text.SPINAND_ClkRequest
+                0x000000000002a878       0x24
+ .text.SPINAND_ClkRequest
+                0x000000000002a878       0x24 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a878                SPINAND_ClkRequest
+
+.text.SPINAND_ClkRelease
+                0x000000000002a89c        0x2
+ .text.SPINAND_ClkRelease
+                0x000000000002a89c        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a89c                SPINAND_ClkRelease
+
+.text.SPINAND_SetClk
+                0x000000000002a8a0       0x80
+ .text.SPINAND_SetClk
+                0x000000000002a8a0       0x80 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a8a0                SPINAND_SetClk
+
+.text.SPINAND_PIORequest
+                0x000000000002a920       0x30
+ .text.SPINAND_PIORequest
+                0x000000000002a920       0x30 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a920                SPINAND_PIORequest
+
+.text.SPINAND_PIORelease
+                0x000000000002a950        0x2
+ .text.SPINAND_PIORelease
+                0x000000000002a950        0x2 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a950                SPINAND_PIORelease
+
+.text.set_ddr_voltage
+                0x000000000002a954       0x38
+ .text.set_ddr_voltage
+                0x000000000002a954       0x38 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a954                set_ddr_voltage
+
+.text.set_sys_voltage
+                0x000000000002a98c       0x2c
+ .text.set_sys_voltage
+                0x000000000002a98c       0x2c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a98c                set_sys_voltage
+
+.text.set_pll_voltage
+                0x000000000002a9b8       0x28
+ .text.set_pll_voltage
+                0x000000000002a9b8       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a9b8                set_pll_voltage
+
+.text.axp_init  0x000000000002a9e0       0x34
+ .text.axp_init
+                0x000000000002a9e0       0x34 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002a9e0                axp_init
+
+.text.get_power_mode
+                0x000000000002aa14        0xc
+ .text.get_power_mode
+                0x000000000002aa14        0xc /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002aa14                get_power_mode
+
+.text.pmu_set_vol
+                0x000000000002aa20      0x3c8
+ .text.pmu_set_vol
+                0x000000000002aa20      0x3c8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+
+.text.axp858_set_ddr_voltage
+                0x000000000002ade8       0x10
+ .text.axp858_set_ddr_voltage
+                0x000000000002ade8       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002ade8                axp858_set_ddr_voltage
+
+.text.axp858_set_pll_voltage
+                0x000000000002adf8       0x10
+ .text.axp858_set_pll_voltage
+                0x000000000002adf8       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002adf8                axp858_set_pll_voltage
+
+.text.axp858_set_sys_voltage
+                0x000000000002ae08       0x10
+ .text.axp858_set_sys_voltage
+                0x000000000002ae08       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002ae08                axp858_set_sys_voltage
+
+.text.axp858_axp_init
+                0x000000000002ae18       0x80
+ .text.axp858_axp_init
+                0x000000000002ae18       0x80 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002ae18                axp858_axp_init
+
+.text.get_ctrl_info_from_tbl
+                0x000000000002ae98       0x38
+ .text.get_ctrl_info_from_tbl
+                0x000000000002ae98       0x38 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+
+.text.axp1530_set_ddr_voltage
+                0x000000000002aed0       0xd8
+ .text.axp1530_set_ddr_voltage
+                0x000000000002aed0       0xd8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002aed0                axp1530_set_ddr_voltage
+
+.text.axp1530_set_pll_voltage
+                0x000000000002afa8       0x10
+ .text.axp1530_set_pll_voltage
+                0x000000000002afa8       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002afa8                axp1530_set_pll_voltage
+
+.text.axp1530_set_sys_voltage
+                0x000000000002afb8       0x10
+ .text.axp1530_set_sys_voltage
+                0x000000000002afb8       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002afb8                axp1530_set_sys_voltage
+
+.text.axp1530_axp_init
+                0x000000000002afc8       0xac
+ .text.axp1530_axp_init
+                0x000000000002afc8       0xac /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002afc8                axp1530_axp_init
+
+.text.axp806_set_ddr_voltage
+                0x000000000002b074       0x10
+ .text.axp806_set_ddr_voltage
+                0x000000000002b074       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b074                axp806_set_ddr_voltage
+
+.text.axp806_set_pll_voltage
+                0x000000000002b084       0x10
+ .text.axp806_set_pll_voltage
+                0x000000000002b084       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b084                axp806_set_pll_voltage
+
+.text.axp806_set_sys_voltage
+                0x000000000002b094       0x10
+ .text.axp806_set_sys_voltage
+                0x000000000002b094       0x10 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b094                axp806_set_sys_voltage
+
+.text.axp806_axp_init
+                0x000000000002b0a4       0xc8
+ .text.axp806_axp_init
+                0x000000000002b0a4       0xc8 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b0a4                axp806_axp_init
+
+.text.update_flash_para
+                0x000000000002b16c       0x1c
+ .text.update_flash_para
+                0x000000000002b16c       0x1c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b16c                update_flash_para
+
+.text.load_toc1_from_rawnand
+                0x000000000002b188      0x144
+ .text.load_toc1_from_rawnand
+                0x000000000002b188      0x144 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b188                load_toc1_from_rawnand
+
+.text.load_toc1_from_spinand
+                0x000000000002b2cc      0x108
+ .text.load_toc1_from_spinand
+                0x000000000002b2cc      0x108 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b2cc                load_toc1_from_spinand
+
+.text.BOOT_NandGetPara
+                0x000000000002b3d4       0x14
+ .text.BOOT_NandGetPara
+                0x000000000002b3d4       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b3d4                BOOT_NandGetPara
+
+.text.load_package
+                0x000000000002b3e8       0x1c
+ .text.load_package
+                0x000000000002b3e8       0x1c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b3e8                load_package
+
+.text.toc1_flash_read
+                0x000000000002b404       0x22
+ .text.toc1_flash_read
+                0x000000000002b404       0x22 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b404                toc1_flash_read
+
+.text.toc1_get_image_addr
+                0x000000000002b426       0x14
+ .text.toc1_get_image_addr
+                0x000000000002b426       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b426                toc1_get_image_addr
+
+.text.load_image
+                0x000000000002b43c      0x248
+ .text.load_image
+                0x000000000002b43c      0x248 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b43c                load_image
+
+.iplt           0x000000000002b684        0x0
+ .iplt          0x000000000002b684        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+
+.text.startup.main
+                0x000000000002b684      0x230
+ .text.startup.main
+                0x000000000002b684      0x230 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+                0x000000000002b684                main
+                0x000000000002b8c0                . = ALIGN (0x10)
+
+.rodata         0x000000000002b8c0      0x744
+ *(.rodata)
+ .rodata        0x000000000002b8c0      0x744 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002b8c0                _ctype
+                0x000000000002be4a                para0
+                0x000000000002be7a                para1
+                0x000000000002beaa                param0x40
+                0x000000000002bebe                param0x41
+                0x000000000002bed6                random_seed
+
+.rodata.str1.1  0x000000000002c004     0x1dc9
+ .rodata.str1.1
+                0x000000000002c004     0x1ceb /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                                       0x1dd7 (size before relaxing)
+ .rodata.str1.1
+                0x000000000002dcef       0xde /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+
+.rel.dyn        0x000000000002ddd0        0x0
+ .rel.iplt      0x000000000002ddd0        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002ddd0                . = ALIGN (0x10)
+
+.data           0x000000000002ddd0      0xd0c
+ *(.data)
+ .data          0x000000000002ddd0      0xd0c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002dde0                i2c_gpio
+                0x000000000002de10                g_sunxi_dma_desc
+                0x000000000002de90                switch_monitor
+                0x000000000002dfe0                read_write_flag
+
+.igot.plt       0x000000000002eadc        0x0
+ .igot.plt      0x000000000002eadc        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002eadc                . = ALIGN (0x4)
+
+.bss            0x000000000002eadc      0x380
+                0x000000000002eadc                __bss_start = .
+ *(.bss)
+ .bss           0x000000000002eadc      0x380 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                0x000000000002eb0c                i2c_has_init
+                0x000000000002eb10                twi_gpio
+                0x000000000002eba0                half_dram_size
+                0x000000000002eba4                DMA1_INFOR_EYETRAINING
+                0x000000000002ebbc                DMA0_INFOR_EYETRAINING
+                0x000000000002ebd4                training_error_flag
+                0x000000000002ebd8                page_with_bad_block
+                0x000000000002ebdc                NF_BLOCK_SIZE
+                0x000000000002ebe0                BOOT1_LAST_BLK_NUM
+                0x000000000002ebe4                BOOT1_START_BLK
+                0x000000000002ebe8                NF_PAGE_SIZE
+                0x000000000002ebec                NF_PG_SZ_WIDTH
+                0x000000000002ebf0                NF_BLK_SZ_WIDTH
+                0x000000000002ebf4                Two_Row_Addr_Flag
+                0x000000000002ebf8                uboot_start_block
+                0x000000000002ebfc                uboot_next_block
+                0x000000000002ec00                nand_specialinfo_page
+                0x000000000002ec04                nand_specialinfo_offset
+                0x000000000002ec08                ddr_param
+                0x000000000002ec28                NandIOBase
+                0x000000000002ec30                NandIndex
+                0x000000000002ec34                pagesize
+                0x000000000002ec38                read_retry_mode
+                0x000000000002ec39                hynix16nm_read_retry_otp_value
+                0x000000000002ec59                read_retry_cycle
+                0x000000000002ec5a                read_retry_reg_num
+                0x000000000002ec5b                read_retry_reg_adr
+                0x000000000002ec63                read_retry_default_val
+                0x000000000002ec6c                read_retry_val
+                0x000000000002ed5c                hynix_read_retry_otp_value
+                0x000000000002ed9c                NandStorageInfo
+                0x000000000002ee14                RetryCount
+                0x000000000002ee18                PageCachePool
+                0x000000000002ee2c                ndfc_dma_desc
+                0x000000000002ee30                SPIC_IO_BASE
+                0x000000000002ee38                OperationOpt
+                0x000000000002ee3c                UBOOT_START_BLK_NUM
+                0x000000000002ee40                UBOOT_LAST_BLK_NUM
+                0x000000000002ee44                page_for_bad_block
+                0x000000000002ee48                SPN_BLOCK_SIZE
+                0x000000000002ee4c                SPN_PAGE_SIZE
+                0x000000000002ee50                SPN_PG_SZ_WIDTH
+                0x000000000002ee54                SPN_BLK_SZ_WIDTH
+                0x000000000002ee5c                . = ALIGN (0x4)
+                0x000000000002ee5c                __bss_end = .
+                0x000000000002ee5c                _end = .
+                0x0000000000000001                ASSERT ((. <= 0x30000), boot0 image has exceeded its limit.)
+OUTPUT(boot0_nand.elf elf32-littlearm)
+
+.comment        0x0000000000000000       0x2d
+ .comment       0x0000000000000000       0x2d /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+                                        0x844 (size before relaxing)
+ .comment       0x000000000000002d       0x2e /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+ .comment       0x000000000000002d       0x2e main/boot0_head.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 main/boot0_head.o
+
+.ARM.attributes
+                0x0000000000000000       0x33
+ .ARM.attributes
+                0x0000000000000000       0x33 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/board/h618/libsun50iw9p1_nand.a
+ .ARM.attributes
+                0x0000000000000033       0x2d /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+ .ARM.attributes
+                0x0000000000000060       0x1f /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000000000000007f       0x1f /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000000000000009e       0x1f /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .ARM.attributes
+                0x00000000000000bd       0x31 main/boot0_head.o
+ .ARM.attributes
+                0x00000000000000ee       0x21 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/boot0_entry.o
+
+.debug_info     0x0000000000000000     0x1d34
+ .debug_info    0x0000000000000000     0x11dd /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+ .debug_info    0x00000000000011dd      0x1cb /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .debug_info    0x00000000000013a8      0x1cb /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .debug_info    0x0000000000001573      0x1cb /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_info    0x000000000000173e      0x56e main/boot0_head.o
+ .debug_info    0x0000000000001cac       0x88 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/boot0_entry.o
+
+.debug_abbrev   0x0000000000000000      0x36e
+ .debug_abbrev  0x0000000000000000      0x24f /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+ .debug_abbrev  0x000000000000024f       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000000000000263       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x0000000000000277       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_abbrev  0x000000000000028b       0xcf main/boot0_head.o
+ .debug_abbrev  0x000000000000035a       0x14 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/boot0_entry.o
+
+.debug_loc      0x0000000000000000      0x19b
+ .debug_loc     0x0000000000000000      0x19b /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+
+.debug_aranges  0x0000000000000000       0xb8
+ .debug_aranges
+                0x0000000000000000       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+ .debug_aranges
+                0x0000000000000020       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x0000000000000040       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x0000000000000060       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_aranges
+                0x0000000000000080       0x18 main/boot0_head.o
+ .debug_aranges
+                0x0000000000000098       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/boot0_entry.o
+
+.debug_ranges   0x0000000000000000       0x30
+ .debug_ranges  0x0000000000000000       0x30 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+
+.debug_line     0x0000000000000000      0x6da
+ .debug_line    0x0000000000000000      0x287 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+ .debug_line    0x0000000000000287      0x108 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .debug_line    0x000000000000038f      0x119 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .debug_line    0x00000000000004a8       0xee /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_line    0x0000000000000596       0xed main/boot0_head.o
+ .debug_line    0x0000000000000683       0x57 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/arch/arm/cpu/armv7/boot0_entry.o
+
+.debug_str      0x0000000000000000      0xa9a
+ .debug_str     0x0000000000000000      0xa8d /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+                                        0xbc9 (size before relaxing)
+ .debug_str     0x0000000000000a8d        0xd main/boot0_head.o
+                                        0x55d (size before relaxing)
+
+.debug_frame    0x0000000000000000       0xa4
+ .debug_frame   0x0000000000000000       0x3c /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/spl-pub/nboot/main/boot0_main.o
+ .debug_frame   0x000000000000003c       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_udivsi3.o)
+ .debug_frame   0x000000000000005c       0x20 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_divsi3.o)
+ .debug_frame   0x000000000000007c       0x28 /home/test/H618-Android12-Src/longan/brandy/brandy-2.0/tools/toolchain/gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/7.2.1/libgcc.a(_dvmd_lnx.o)
